@@ -1,0 +1,81 @@
+/*                       dontFind     */
+
+.dontFind {
+	padding-top: 150px;
+	padding-bottom: 60px;
+	background: url(../img/lines.jpg);
+}
+.dontFind .container {
+	position: relative;
+	text-align: center;
+}
+.dontFind .line {
+	position: absolute;
+	border-top: 1px solid #871495;
+	width: 1000%;
+	top: 0;
+	left: -500%;
+}
+.dontFind h3 {
+	background: url(../img/lines.jpg);
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 380px;
+	position: relative;
+	top: -134px;
+	z-index: 99;
+	font-size: 183px;
+}
+.dontFind p {
+	font-size: 30px;
+	font-weight: 300;
+	position: absolute;
+	width: 100%;
+	top: 22%;
+}
+.dontFind img {
+	margin-bottom: 50px;
+}
+.dontFind .linkHome {
+	cursor: pointer;
+	font-size: 22px;
+	background: #871495;
+	color: #fff;
+	display: block;
+	padding: 14px;
+	text-decoration: none;
+	display: block;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dontFind .linkHome:hover {
+	background: #871495 url(../img/hover_become_a_publisher.png);
+	-webkit-animation: moveImg 2s linear infinite;
+	-moz-animation: moveImg 2s linear infinite;
+	animation: moveImg 2s linear infinite;
+	transform: scale(1.05);
+}
+#scrollUp {
+	display: none;
+}
+@media all and (max-width: 954px) {
+	.dontFind {
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+	.dontFind h3 {
+		max-width: 210px;
+		top: -49px;
+		font-size: 92px;
+	}
+	.dontFind p {
+		font-size: 15px;
+		top: 18%;
+	}
+	.dontFind .linkHome {
+		font-size: 15px;
+		max-width: 200px;
+	}
+}
