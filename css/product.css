@@ -1,307 +1,374 @@
 /*                               product     */
 .product {
-	padding-top: 70px;
-	padding-bottom: 80px;
-	background: url(../img/lines.jpg) repeat;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background: url(../img/lines.jpg) repeat;
 }
+
+.product .container {
+    text-align: center;
+}
+
 .product .container,
 .apps .container,
 .multimedia .container,
 .competitions .container {
-	position: relative;
+    position: relative;
 }
+
 .product .line {
-	position: absolute;
-	border-top: 1px solid #871495;
-	width: 10000%;
-	left: -5000%;
+    position: absolute;
+    border-top: 1px solid #871495;
+    width: 10000%;
+    left: -5000%;
 }
+
 .mark {
-	text-transform: none;
+    text-transform: none;
 }
+
 .product h3 {
-	text-align: center;
-	position: relative;
-	top: -24px;
-	background: url(../img/lines.jpg);
-	width: 290px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    top: -24px;
+    background: url(../img/lines.jpg);
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
+
 .product .text {
-	max-width: 775px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	margin-bottom: 40px;
+    max-width: 775px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
 }
+
 p {
-	margin-bottom: 25px;
-	font-size: 22px;
-	color: #2c2c2c;
-	font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #2c2c2c;
+    font-weight: 300;
 }
 
 
 /*                               apps     */
 
 .apps {
-	padding-top: 200px;
-	padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
+
 .apps .container,
 .competitions .container {
-	height: 390px;
+    height: 390px;
 }
+
 .apps .border,
 .competitions .border {
-	position: absolute;
-	width: 1000%;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	border: 1px solid #871495;
-	margin-right: 10px;
+    position: absolute;
+    width: 1000%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #871495;
+    margin-right: 10px;
 }
+
 .apps .wrap,
 .multimedia .wrap,
 .competitions .wrap {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 .apps .wrap .block1,
 .competitions .wrap .block1 {
-	position: relative;
-	width: 45%;
+    position: relative;
+    width: 45%;
 }
-.apps .wrap .block1 img {
-	position: absolute;
+
+.apps .wrap .block1 .img {
+    position: absolute;
     width: 596px;
+    height: 571px;
     bottom: -290px;
     right: 30px;
 }
+
+.apps .wrap .block1 img,
+.multimedia .block2 img,
+.competitions .wrap .block1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .apps h3,
 .competitions h3 {
-	position: relative;
+    position: relative;
     top: -24px;
     width: 150px;
     text-align: center;
 }
+
 .apps .wrap .block2,
 .competitions .wrap .block2 {
-	width: 52%;
-	padding-right: 25px;
+    width: 52%;
+    padding-right: 25px;
 }
+
 .apps .wrap .block2 .text,
 .competitions .wrap .block2 .text p {
-	margin-left: 27px;
-	font-size: 22px;
+    margin-left: 27px;
+    font-size: 22px;
 }
 
 
 /*                             multimedia   */
 .multimedia,
 .competitions {
-	padding-top: 150px;
-	padding-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
+
 .multimedia .container {
-	height: 425px;
+    height: 425px;
 }
+
 .multimedia .border {
-	position: absolute;
-	width: 1000%;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	border: 1px solid #871495;
-	margin-left: 10px;
+    position: absolute;
+    width: 1000%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #871495;
+    margin-left: 10px;
 }
+
 .multimedia .block1 {
-	padding-left: 30px;
-	width: 48%;
+    padding-left: 30px;
+    width: 48%;
 }
+
 .multimedia .block1 h3 {
-	position: relative;
+    position: relative;
     top: -22px;
     width: 280px;
     text-align: center;
 }
+
 .multimedia .block1 .text {
-	max-width: 480px;
+    max-width: 480px;
 }
+
 .multimedia .block2 {
-	width: 52%;
-	position: relative;
+    width: 52%;
+    position: relative;
 }
-.multimedia .block2  img {
-	position: absolute;
-	top: -50px;
+
+.multimedia .block2 .img {
+    position: absolute;
+    width: 822px;
+    height: 580px;
+    top: -50px;
 }
 
 
 /*                        competitions    */
 
 .competitions {
-	padding-bottom: 230px;
+    padding-bottom: 230px;
 }
+
 .competitions h3 {
-	position: relative;
-	width: 425px;
+    position: relative;
+    width: 425px;
     top: -24px;
     text-align: left;
     padding-left: 30px;
 }
-.competitions .wrap .block1 img {
-	position: absolute;
+
+.competitions .wrap .block1 .img {
+    position: absolute;
     top: 65px;
-    right: -70px;
+    right: -34px;
+    width: 855px;
+    height: 431px;
 }
 
 
 @media all and (max-width: 1500px) {
-	.apps,
-	.multimedia,
-	.competitions {
-		padding-top: 80px;
-		padding-bottom: 80px;
-	}
-	.apps .wrap .block1 img {
-		position: absolute;
-    	width: 380px;
-    	top: 10px;
-	}
-	.apps .wrap .block1,
-	.apps .wrap .block2 {
-		width: 50%;
-	}
-	.multimedia .block1 {
-		width: 35%;
-	}
-	.multimedia .block2 {
-		width: 60%;
-	}
-	.multimedia .block2 img {
-		width: 490px;
-		top: 20px;
-	}
-	.competitions .wrap .block1 img {
-		width: 515px;
-		right: -45px;
-		top: 50px;
-	}
+
+    .apps,
+    .multimedia,
+    .competitions {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .apps .wrap .block1 .img {
+        position: absolute;
+        width: 380px;
+        height: 364px;
+        top: 10px;
+    }
+
+    .apps .wrap .block1,
+    .apps .wrap .block2 {
+        width: 50%;
+    }
+
+    .multimedia .block1 {
+        width: 35%;
+    }
+
+    .multimedia .block2 {
+        width: 60%;
+    }
+
+    .multimedia .block2 .img {
+        width: 490px;
+        height: 346px;
+        top: 20px;
+    }
+
+    .competitions .wrap .block1 .img {
+        width: 515px;
+        height: 260px;
+        right: -45px;
+        top: 72px;
+    }
 }
 
 @media all and (max-width: 954px) {
-	.apps,
-	.multimedia,
-	.competitions {
-		padding-top: 70px;
-		padding-bottom: 40px;
-	}
-	.multimedia {
-		padding-bottom: 10px;
-	}
-	.competitions {
-		padding-bottom: 60px;
-	}
-	.apps .wrap,
-	.multimedia .wrap,
-	.competitions .wrap {
-    	flex-direction: column;
-    	justify-content: flex-start;
-    	align-items: center;
-	}
-	.apps .container,
-	.multimedia .container,
-	.competitions .container {
-		width: 320px;
-		height: 525px;
-	}
-	.apps .wrap .block2,
-	.competitions .wrap .block2 {
-		-webkit-order: 1;
-		-moz-order: 1;
-		-ms-order: 1;
-		-o-order: 1;
-		order: 1;
-		padding-right: 0;
-		margin-bottom: 20px;
-	}
-	.apps .wrap .block1,
-	.competitions .wrap .block1 {
-		-webkit-order: 2;
-		-moz-order: 2;
-		-ms-order: 2;
-		-o-order: 2;
-		order: 2;
-	}
-	.multimedia .block1 {
-		padding-left: 0;
-	}
-	.apps .wrap .block2 h3,
-	.apps .wrap .block2 .text,
-	.multimedia .wrap .block1 h3,
-	.multimedia .wrap .block1 .text,
-	.competitions .wrap .block2 h3,
-	.competitions .wrap .block2 .text {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.apps .wrap .block2 .text,
-	.multimedia .wrap .block1 .text p,
-	.competitions .wrap .block2 .text p {
-		font-size: 17px;
-		text-align: left;
-		margin-left: 0;
-	}
-	.apps .wrap .block2 h3,
-	.multimedia .wrap .block1 h3,
-	.competitions .wrap .block2 h3 {
-		font-size: 30px;
-		top: -18px;
-	}
-	.competitions .wrap .block2 h3 {
-		width: 305px; 
-		padding: 0;
-		text-align: center;
 
-	}
-	.apps .wrap .block1,
-	.apps .wrap .block2,
-	.multimedia .wrap .block1,
-	.multimedia .wrap .block2,
-	.competitions .wrap .block1,
-	.competitions .wrap .block2  {
-		width: 100%;
-		text-align: center;
-	}
-	.apps .border,
-	.multimedia .border,
-	.competitions .border {
-		position: absolute;
-    	width: 10000%;
-    	left: -5000%;
-    	border: none;
-    	border-top: 1px solid #871495;
-    	margin-right: 0;
-	}
-	.apps .wrap .block1 img,
-	.multimedia .wrap .block2 img,
-	.competitions .wrap .block1 img {
-		width: 95%;
-		position: static; 
-	}
-	.product h3 {
-		top: -18px;
-		font-size: 30px;
-		width: 200px;
-		margin-bottom: 20px;
-	}
-	.product .text p {
-		font-size: 17px;
-	}
+    .apps,
+    .multimedia,
+    .competitions {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .multimedia {
+        padding-bottom: 10px;
+    }
+
+    .competitions {
+        padding-bottom: 60px;
+    }
+
+    .apps .wrap,
+    .multimedia .wrap,
+    .competitions .wrap {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .apps .container,
+    .multimedia .container,
+    .competitions .container {
+        width: 320px;
+        height: 525px;
+    }
+
+    .apps .wrap .block2,
+    .competitions .wrap .block2 {
+        -webkit-order: 1;
+        -moz-order: 1;
+        -ms-order: 1;
+        -o-order: 1;
+        order: 1;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .apps .wrap .block1,
+    .competitions .wrap .block1 {
+        -webkit-order: 2;
+        -moz-order: 2;
+        -ms-order: 2;
+        -o-order: 2;
+        order: 2;
+    }
+
+    .multimedia .block1 {
+        padding-left: 0;
+    }
+
+    .apps .wrap .block2 h3,
+    .apps .wrap .block2 .text,
+    .multimedia .wrap .block1 h3,
+    .multimedia .wrap .block1 .text,
+    .competitions .wrap .block2 h3,
+    .competitions .wrap .block2 .text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .apps .wrap .block2 .text,
+    .multimedia .wrap .block1 .text p,
+    .competitions .wrap .block2 .text p {
+        font-size: 17px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .apps .wrap .block2 h3,
+    .multimedia .wrap .block1 h3,
+    .competitions .wrap .block2 h3 {
+        font-size: 30px;
+        top: -18px;
+    }
+
+    .competitions .wrap .block2 h3 {
+        width: 305px;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .apps .wrap .block1,
+    .apps .wrap .block2,
+    .multimedia .wrap .block1,
+    .multimedia .wrap .block2,
+    .competitions .wrap .block1,
+    .competitions .wrap .block2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .apps .border,
+    .multimedia .border,
+    .competitions .border {
+        position: absolute;
+        width: 10000%;
+        left: -5000%;
+        border: none;
+        border-top: 1px solid #871495;
+        margin-right: 0;
+    }
+
+    .apps .wrap .block1 .img,
+    .multimedia .wrap .block2 .img,
+    .competitions .wrap .block1 .img {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .product h3 {
+        top: -18px;
+        font-size: 30px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .product .text p {
+        font-size: 17px;
+    }
 }
-

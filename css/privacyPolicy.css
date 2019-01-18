@@ -2,8 +2,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .policy .title h3 {
-	text-align: center;
+    text-align: center;
     position: relative;
     top: -24px;
     width: 300px;
@@ -11,55 +12,64 @@
     margin-right: auto;
     margin-bottom: 40px;
 }
+
 .policy .title .line {
     position: absolute;
     border-top: 1px solid #871495;
     width: 10000%;
     left: -5000%;
 }
+
 .policy h4 {
-	color: #871495;
-	font-weight: 500;
-	font-size: 22px;
+    color: #871495;
+    font-weight: 500;
+    font-size: 22px;
 }
+
 span.email {
-	font-weight: 500;
+    font-weight: 500;
 }
+
 .indent,
 .policy p,
 .subparagraph,
 .list {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .policy p,
 .light,
 .subparagraph,
 .list li,
 .policy a {
-	font-weight: 300;
-	color: #2c2c2c;
-	font-size: 22px;
+    font-weight: 300;
+    color: #2c2c2c;
+    font-size: 22px;
 }
+
 .policy a {
-	text-decoration: none;
-	color: #871495;
+    text-decoration: none;
+    color: #871495;
 }
+
 p.subparagraph,
 span.subparagraph {
-	color: #871495;
+    color: #871495;
 }
+
 @media (max-width: 954px) {
-	.policy .title h3 {
-		top: -18px;
-    	font-size: 30px;
-    	width: 250px;
-    	margin-bottom: 20px;
-    	text-transform: uppercase;
-	}
-	.policy h4,
-	.policy p,
-	.light,
-	.policy a {
-		font-size: 20px;
-	}
+    .policy .title h3 {
+        top: -18px;
+        font-size: 30px;
+        width: 250px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .policy h4,
+    .policy p,
+    .light,
+    .policy a {
+        font-size: 20px;
+    }
 }

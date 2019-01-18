@@ -1,111 +1,129 @@
 /*                         form     */
 .formContactUs {
-	padding-top: 120px;
-	padding-bottom: 120px;
-	background: url(../img/lines.jpg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url(../img/lines.jpg);
 }
+
 .formContactUs .container {
-	position: relative;
+    position: relative;
 }
+
 .formContactUs .text {
-	background: url(../img/lines.jpg);
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 290px;
-	padding-right: 15px;
-	padding-left: 15px;
-	position: relative;
-	top: -23px;
-	z-index: 99;
+    background: url(../img/lines.jpg);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 290px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    top: -23px;
+    z-index: 99;
 }
+
 .formContactUs .text h3 {
-	background: inherit;
+    background: inherit;
 }
+
 .formContactUs .text span {
-	font-size: 15px;
-	font-weight: 300;
+    font-size: 15px;
+    font-weight: 300;
 }
+
 .formContactUs .line {
-	position: absolute;
-	border-top: 1px solid #871495;
-	width: 1000%;
-	top: 0;
-	left: -500%;
+    position: absolute;
+    border-top: 1px solid #871495;
+    width: 1000%;
+    top: 0;
+    left: -500%;
 }
+
 .formContactUs form {
-	max-width: 495px;
-	padding-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
+    max-width: 495px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
-#validMessage, 
+
+#validMessage,
 #invalidMessage {
-	top: -20px;
+    top: -20px;
 }
+
 .formContactUs form input,
 .formContactUs form textarea {
-	width: 100%;
-	border: none;
-	border-bottom: 1px solid #871495;
-	background: inherit;
-	padding: 10px 25px;
-	margin-bottom: 30px;
-	color: #2c2c2c;
-	font-size: 15px;
-	font-weight: 300;
-	font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #871495;
+    background: inherit;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 .formContactUs form input[type="submit"] {
-	cursor: pointer;
-	font-size: 22px;
-	background: #871495;
-	text-transform: uppercase;
-	color: #fff;
-	padding-top: 13px;
-	padding-bottom: 13px;
+    cursor: pointer;
+    font-size: 22px;
+    background: #871495;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
+
 #scrollUp {
-	display: none;
+    display: none;
 }
 
 @media (min-width: 955px) and (max-width: 1500px) {
-	.formContactUs {
-		padding-top: 60px;
-    	padding-bottom: 20px;
-	}
-	.formContactUs .text {
-		top: -28px;
-	}
+    .formContactUs {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .formContactUs .text {
+        top: -28px;
+    }
 }
+
 @media all and (max-width: 954px) {
-	.formContactUs {
-		padding-top: 60px;
-		padding-bottom: 60px;
-	}
-	.formContactUs .text {
-		padding: 0;
-		max-width: 235px;
-		top: -16px;
-		margin-bottom: 20px;
-	}
-	.formContactUs .text h3 {
-		font-size: 22px;
-		margin-bottom: 10px;
-	}
-	.formContactUs .text span {
-		font-size: 17px;
-	}
-	.formContactUs form input,
-	.formContactUs form textarea {
-		margin-bottom: 20px;
-	}
-	.formContactUs form {
-		padding-top: 15px;
-	}
-	#validMessage, 
-	#invalidMessage {
-		top: -27px;
-	}
+    .formContactUs {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .formContactUs .text {
+        padding: 0;
+        max-width: 235px;
+        top: -16px;
+        margin-bottom: 20px;
+    }
+
+    .formContactUs .text h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .formContactUs .text span {
+        font-size: 17px;
+    }
+
+    .formContactUs form input,
+    .formContactUs form textarea {
+        margin-bottom: 20px;
+    }
+
+    .formContactUs form {
+        padding-top: 15px;
+    }
+
+    #validMessage,
+    #invalidMessage {
+        top: -27px;
+    }
 }

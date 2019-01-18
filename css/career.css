@@ -1,46 +1,56 @@
 /*                               product     */
 .career {
-	padding-top: 70px;
-	padding-bottom: 80px;
-	background: url(../img/lines.jpg) repeat;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background: url(../img/lines.jpg) repeat;
 }
+
+.career .container {
+    text-align: center;
+}
+
 .career .container,
 .weLookFor .container,
 .opportunities .container,
 .toJoin .container {
-	position: relative;
+    position: relative;
 }
+
 .career .line {
-	position: absolute;
-	border-top: 1px solid #871495;
-	width: 10000%;
-	left: -5000%;
+    position: absolute;
+    border-top: 1px solid #871495;
+    width: 10000%;
+    left: -5000%;
 }
+
 .mark {
-	text-transform: none;
+    text-transform: none;
 }
+
 .career h3 {
-	text-align: center;
-	position: relative;
-	top: -24px;
-	background: url(../img/lines.jpg);
-	width: 290px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    top: -24px;
+    background: url(../img/lines.jpg);
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
+
 .career .text {
-	max-width: 775px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	margin-bottom: 40px;
+    max-width: 775px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
 }
+
 p {
-	margin-bottom: 25px;
-	font-size: 22px;
-	color: #2c2c2c;
-	font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #2c2c2c;
+    font-weight: 300;
 }
 
 
@@ -48,14 +58,16 @@ p {
 /*                        weLookFor     */
 
 .weLookFor {
-	padding-top: 70px;
+    padding-top: 70px;
 }
+
 .weLookFor p {
-	max-width: 50%;
+    max-width: 50%;
 }
+
 .weLookFor .line,
 .toJoin .line {
-	border-top: 1px solid #871495;
+    border-top: 1px solid #871495;
     position: absolute;
     top: 12px;
     left: -1001%;
@@ -66,37 +78,51 @@ p {
 /*                     opportunities   */
 
 .opportunities {
-	padding-top: 70px;
-	padding-bottom: 140px;
+    padding-top: 70px;
+    padding-bottom: 140px;
 }
+
 .opportunities .border {
-	width: 56%;
-	position: relative;
-	border: 1px solid #871495;
-	padding: 12px;
-	height: 430px;
+    width: 56%;
+    position: relative;
+    border: 1px solid #871495;
+    padding: 12px;
+    height: 430px;
 }
+
 .opportunities .list {
-	width: 295px;
-	position: absolute;
-	right: -350px;
+    width: 295px;
+    position: absolute;
+    right: -350px;
     top: 168px;
 }
+
 .opportunities .list li {
-	text-transform: none;
+    text-transform: none;
 }
+
 .opportunities h3 {
-	width: 400px;
+    width: 400px;
     padding-top: 12px;
     padding-bottom: 12px;
     position: absolute;
     right: -385px;
 }
+
 .opportunities .img {
-	position: absolute;
+    position: absolute;
     top: 45px;
     left: -100px;
+    width: 704px;
+    height: 469px;
 }
+
+.opportunities .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .opportunities .list li {
     display: inline-block;
     font-size: 22px;
@@ -107,8 +133,9 @@ p {
     padding-left: 7px;
     padding-right: 7px;
 }
+
 .extraLine {
-	width: 2000%;
+    width: 2000%;
 }
 
 
@@ -116,153 +143,185 @@ p {
 /*                         toJoin    */
 
 .toJoin {
-	padding-top: 50px;
-	padding-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
+
 .toJoin p {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .toJoin .emailLink {
-	text-decoration: none;
-	font-size: 22px;
-	color: #871495;
-	font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
+    color: #871495;
+    font-weight: 300;
 }
 
 
 @media all and (max-width: 1270px) {
-	.weLookFor .container,
-	.toJoin .container {
-		width: 75%;
-	}
-	.weLookFor p {
-		max-width: 70%;
-	}
-	.opportunities .border {
-		width: 510px;
-	}
-	.opportunities .img {
-	    position: absolute;
-	    top: 175px;
-	    left: -30px;
-	}
-	.opportunities .img img {
-	    width: 93%;
-	}
-}
-@media all and (max-width: 1183px) {
-	.opportunities h3 {
-		width: 450px;
-	    padding-top: 15px;
-	    padding-bottom: 15px;
-	    position: absolute;
-	    right: -437px;
-	    font-size: 30px;
-	}
-}
-@media all and (max-width: 1047px) {
-	.opportunities h3 {
-		max-width: 265px;
-    	text-align: center;
-    	position: relative;
-	    top: -90px;
-	    margin-left: auto;
-	    margin-right: auto;
-	    font-size: 28px;
-	}
-	.opportunities h3 {
-		right: 0;
-	}
-	.opportunities .list {
-		position: relative;
-    	top: -66px;
-    	margin-right: auto;
-    	margin-left: auto;
-    	text-align: left;
-    	font-size: 20px;
-    	width: 275px;
-	}
-	.opportunities .list {
-		text-align: center;
-		margin-left: auto;
-    	margin-right: auto;
-	}
-	h3 {
-		font-size: 30px;
-	}
-	.opportunities .img {
-		position: relative;
-		bottom: 25px;
-		right: auto;
-		width: 100%;
-	}
+
+    .weLookFor .container,
+    .toJoin .container {
+        width: 75%;
+    }
+
+    .weLookFor p {
+        max-width: 70%;
+    }
+
     .opportunities .border {
-		position: relative;
-		padding: 45px 25px;
-		width: 320px;
-		height: 665px;
+        width: 510px;
     }
-    .opportunities .border {
-    	margin-right: auto;
-    	margin-left: auto;
-    	height: 560px;
-    }
-    .opportunities {
-    	padding-top: 70px;
-    	padding-bottom: 50px;
-    }
-    .opportunities .list {
-    	right: 0;
-    	width: 240px;
-    }
+
     .opportunities .img {
-    	right: 0;
-    	left: 0;
-    	top: -30px;
-    	text-align: center;
+        position: absolute;
+        top: 175px;
+        left: -30px;
+        width: 530px;
+        height: 323px;
     }
+
+    .opportunities .img img {
+        width: 93%;
+    }
+}
+
+@media all and (max-width: 1183px) {
+    .opportunities h3 {
+        width: 450px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        right: -437px;
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 1047px) {
+    .opportunities h3 {
+        max-width: 265px;
+        text-align: center;
+        position: relative;
+        top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+    }
+
+    .opportunities h3 {
+        right: 0;
+    }
+
+    .opportunities .list {
+        position: relative;
+        top: -66px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+        font-size: 20px;
+        width: 275px;
+    }
+
+    .opportunities .list {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .opportunities .img {
+        position: relative;
+        bottom: 25px;
+        right: auto;
+        width: 100%;
+    }
+
     .opportunities .border {
-    	padding: 0;
-    	border: none;
+        position: relative;
+        padding: 45px 25px;
+        width: 320px;
+        height: 665px;
     }
+
+    .opportunities .border {
+        margin-right: auto;
+        margin-left: auto;
+        height: 560px;
+    }
+
+    .opportunities {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .opportunities .list {
+        right: 0;
+        width: 240px;
+    }
+
+    .opportunities .img {
+        right: 0;
+        left: 0;
+        top: -30px;
+        text-align: center;
+        height: auto;
+    }
+
+    .opportunities .border {
+        padding: 0;
+        border: none;
+    }
+
     .opportunities .list li {
-    	font-size: 17px;
+        font-size: 17px;
     }
+
     .extraLine {
-    	width: auto;
+        width: auto;
     }
 }
+
 @media all and (max-width: 954px) {
-	.weLookFor {
-		padding-top: 50px;
-		padding-bottom: 30px;
-	}
-	.toJoin {
-		padding-top: 0px;
-    	padding-bottom: 50px;
-	}
-	.career h3 {
-		top: -18px;
-		font-size: 30px;
-		width: 200px;
-		margin-bottom: 20px;
-	}
-	.career .text p,
-	.weLookFor p,
-	.toJoin p,
-	.toJoin .emailLink {
-		font-size: 17px;
-	}
-	.weLookFor .container,
-	.toJoin .container {
-		width: 70%;
-	}
-	.weLookFor p {
-		max-width: 100%;
-	}
+    .weLookFor {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .toJoin {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .career h3 {
+        top: -18px;
+        font-size: 30px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .career .text p,
+    .weLookFor p,
+    .toJoin p,
+    .toJoin .emailLink {
+        font-size: 17px;
+    }
+
+    .weLookFor .container,
+    .toJoin .container {
+        width: 70%;
+    }
+
+    .weLookFor p {
+        max-width: 100%;
+    }
 }
+
 @media all and (max-width: 700px) {
-	.weLookFor p {
-		max-width: 100%;
-	}
+    .weLookFor p {
+        max-width: 100%;
+    }
 }
