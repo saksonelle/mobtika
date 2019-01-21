@@ -20,7 +20,7 @@ $(function() {
 
     $('.closePopUp').click(function() {
 
-        $("#success").fadeOut({
+        $(".success").fadeOut({
             easing: "linear",
             duration: 200,
             complete: function() {
@@ -88,12 +88,12 @@ $(function() {
                         $('#submitButton, input, textarea').attr('disabled', 'disabled');
 
                         setTimeout(function() {
-                            $('#success').fadeIn(500);
+                            $('.success').fadeIn(500);
                             $('body').css('overflow-y', 'hidden');
                         }, 400);
 
                         setTimeout(function() {
-                            $('#success').fadeOut(500);
+                            $('.success').fadeOut(500);
                             $('#submitButton, input, textarea').removeAttr('disabled');
                             $('body').css('overflow-y', 'visible');
                         }, 5000);

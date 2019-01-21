@@ -52,9 +52,9 @@ span.email {
     color: #871495;
 }
 
-p.subparagraph,
-span.subparagraph {
+h4.subparagraph {
     color: #871495;
+    font-weight: 300;
 }
 
 @media (max-width: 954px) {

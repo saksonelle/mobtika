@@ -120,10 +120,14 @@ p {
 
 .specializing .wrap .block1 .img {
     right: 35px;
+    width: 737px;
+    height: 387px;
 }
 
 .partnership .wrap .block2 .img {
     left: 60px;
+    width: 703px;
+    height: 469px;
 }
 
 .specializing .wrap .block2,
@@ -326,6 +330,7 @@ p {
     .partnership .wrap .block2 .img {
         position: static;
         width: 100%;
+        height: auto;
     }
 
     p {

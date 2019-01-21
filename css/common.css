@@ -126,7 +126,7 @@ header .commonHeader {
 
 
 /*                       success    */
-#success {
+.success {
     position: fixed;
     top: 0;
     right: 0;
@@ -137,7 +137,7 @@ header .commonHeader {
     display: none;
 }
 
-#success .box {
+.success .box {
     max-width: 495px;
     margin-right: auto;
     margin-left: auto;
@@ -149,13 +149,13 @@ header .commonHeader {
     padding: 100px 25px;
 }
 
-#success .box p {
+.success .box p {
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
 }
 
-#success .closePopUp {
+.success .closePopUp {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -463,7 +463,7 @@ footer .extra .wrap a {
 }
 
 @media all and (max-width: 954px) {
-    #success .box p {
+    .success .box p {
         font-size: 17px;
     }
 }
@@ -545,7 +545,7 @@ footer .extra .wrap a {
 }
 
 @media all and (max-width: 514px) {
-    #success .box {
+    .success .box {
         margin-right: 15px;
         margin-left: 15px;
         top: 15%;
